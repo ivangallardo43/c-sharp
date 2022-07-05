@@ -1,0 +1,49 @@
+using System;
+
+namespace FundamentosCSHARP
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.Write("Escriba el nombre ");
+            string Nombre1 = Console.ReadLine();
+            Console.Write("Escriba el apellido ");
+            string Apellido1 = Console.ReadLine();
+            Console.Write("Escriba la edad ");
+            int edad = int.Parse(Console.ReadLine());
+            Console.WriteLine("Su nombre completo es: " + Nombre1 +" "+ Apellido1 +" Edad " + edad + " años");
+
+            Console.Write("Escriba un numero ");
+            int numero1 = int.Parse(Console.ReadLine());
+
+            if (numero1 >= 18)
+            {
+                Console.WriteLine(" El numero digitado es mayor o igual a 18");
+                
+            }
+            else
+            {
+                Console.WriteLine(" El numero digitado es MENOR a 18");
+                
+            }
+
+            Console.Write("Escriba UNA letra ");
+            char letra = char.Parse(Console.ReadLine());
+
+            if (letra == 'a')
+            {
+                Console.WriteLine("si es a");
+            }
+            else
+            {
+                Console.WriteLine("NO es a");
+            }
+
+            Console.WriteLine("se cumplen dos condiciones: " + (10 < 12 && 100 > 2));
+            Console.WriteLine("Se cumple una de dos condiciones (una true y otra false) " + (10 >= 7 || 100 > 100));
+
+        }
+    }
+}
