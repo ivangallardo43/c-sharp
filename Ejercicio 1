@@ -1,0 +1,15 @@
+using System;
+namespace FundamentosCSHARP
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Escriba el nombre ");
+            string Nombre1 = Console.ReadLine();
+            Console.WriteLine("Hola " + Nombre1);
+
+            
+        }
+    }
+}
